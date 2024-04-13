@@ -1,0 +1,7 @@
+name: KelsiCasino
+version: '${project.version}'
+main: kelsi.kelsicasino.KelsiCasino
+commands:
+  roll:
+    description: "/roll - чтобы открыть меню казино"
+    usage: "/roll - чтобы открыть меню казино"
