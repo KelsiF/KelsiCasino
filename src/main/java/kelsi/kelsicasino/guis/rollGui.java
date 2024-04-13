@@ -21,44 +21,37 @@ public class rollGui {
     public static void createItems() {
         stone = new ItemStack(Material.STONE);
         ItemMeta stoneMeta = stone.getItemMeta();
-        stoneMeta.setDisplayName("x1.25");
-        stoneMeta.setLore(Collections.singletonList("Бонус: §61.25x\nШанс: §95%"));
+        stoneMeta.setDisplayName("§6x1.25 §f(95%)");
         stone.setItemMeta(stoneMeta);
 
         iron = new ItemStack(Material.IRON_BLOCK);
         ItemMeta ironMeta = iron.getItemMeta();
-        ironMeta.setDisplayName("x1.5");
-        ironMeta.setLore(Collections.singletonList("Бонус: §61.5x\nШанс: §80%"));
+        ironMeta.setDisplayName("§61.5 §f(80%)");
         iron.setItemMeta(ironMeta);
 
         gold = new ItemStack(Material.GOLD_BLOCK);
         ItemMeta goldMeta = gold.getItemMeta();
-        goldMeta.setDisplayName("x1.75");
-        goldMeta.setLore(Collections.singletonList("Бонус: §61.75x\nШанс: §75%"));
+        goldMeta.setDisplayName("§6x1.75 §f(75%)");
         gold.setItemMeta(goldMeta);
 
         redStone = new ItemStack(Material.REDSTONE_BLOCK);
         ItemMeta redstoneMeta = redStone.getItemMeta();
-        redstoneMeta.setDisplayName("x2");
-        redstoneMeta.setLore(Collections.singletonList("Бонус: §62x\nШанс: §50%"));
+        redstoneMeta.setDisplayName("§6x2 §f(50%)");
         redStone.setItemMeta(redstoneMeta);
 
         diamond = new ItemStack(Material.DIAMOND_BLOCK);
         ItemMeta diamondMeta = diamond.getItemMeta();
-        diamondMeta.setDisplayName("x3");
-        diamondMeta.setLore(Collections.singletonList("Бонус: §63x\nШанс: §25%"));
+        diamondMeta.setDisplayName("§6x3 §f(25%)");
         diamond.setItemMeta(diamondMeta);
 
         diamondThree = new ItemStack(Material.DIAMOND_BLOCK); diamondThree.setAmount(3);
         ItemMeta diamondthreeMeta = diamondThree.getItemMeta();
-        diamondthreeMeta.setDisplayName("x3.5");
-        diamondthreeMeta.setLore(Collections.singletonList("Бонус: §63.5x\nШанс: §10%"));
+        diamondthreeMeta.setDisplayName("§6x3.5 §f(10%)");
         diamondThree.setItemMeta(diamondthreeMeta);
 
         diamondFive = new ItemStack(Material.DIAMOND_BLOCK); diamondFive.setAmount(5);
         ItemMeta diamondfiveMeta = diamondFive.getItemMeta();
-        diamondfiveMeta.setDisplayName("x5");
-        diamondfiveMeta.setLore(Collections.singletonList("Бонус: §65x\nШанс: §1%"));
+        diamondfiveMeta.setDisplayName("§6x5 §f(1%)");
         diamondFive.setItemMeta(diamondfiveMeta);
     }
 
